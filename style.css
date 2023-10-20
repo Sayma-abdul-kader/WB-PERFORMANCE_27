@@ -1,0 +1,34 @@
+.box{
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+    border: 5px ridge black;
+    background-color: aqua;
+    background-image: radial-gradient(circle , red 10%, yellow 20%, green 30%,lime, blue,aqua,grey);
+}
+
+.box1{
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+    border: 5px ridge black;
+    background-color: aqua;
+    background-image: repeating-radial-gradient(circle, red 10% 20%, tomato 10% 10% , yellow 20% 40%, green 40% 60%,lime, blue);
+}
+.box2{
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+    border: 5px ridge black;
+    background-color: aqua;
+    background-image: conic-gradient(red 45deg, yellow 90deg,greenyellow 90deg,grey 90deg, green 270deg,blue 270deg,tomato 350deg);
+}
+.box3{
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+    border: 5px ridge black;
+    background-color: aqua;
+    border-image: linear-gradient(blue,pink,tomato) 30 repeat;
+    background-image: repeating-conic-gradient(red 10%, yellow 60deg 20deg);
+}
